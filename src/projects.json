@@ -11,7 +11,8 @@
 			"link": "https://hildasandberg.wixsite.com/portfolio2/copy-of-project-page-2"
 		},
 		{
-			"id": 2,
+			"id": "hoho",
+			"featured": true,
 			"name": "Radio Player",
 			"category": "Web Development",
 			"images": ["https://www.apoteket.se/produktbilder/Validoo/097610s.jpg"],
@@ -22,6 +23,7 @@
 		},
 		{
 			"id": 3,
+			"featured": true,
 			"name": "Project Name",
 			"category": "Web Development",
 			"images": ["https://www.apoteket.se/produktbilder/Validoo/097610s.jpg"],
@@ -32,6 +34,7 @@
 		},
 		{
 			"id": 4,
+			"featured": true,
 			"name": "Project Name",
 			"category": "Web Development",
 			"images": ["https://www.apoteket.se/produktbilder/Validoo/097610s.jpg"],

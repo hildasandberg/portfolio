@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter, Route, Link } from "react-router-dom"
+import { BrowserRouter, Route } from "react-router-dom"
 import Header from "./header/index.js"
 import Hero from "./hero/index.js"
 import Projects from "./projects/projects.js"
@@ -19,7 +19,7 @@ class App extends React.Component {
           <Route exact path="/projects" component={Projects} />
           <Route path="/projects/:id" component={Project} />
           <Route exact path="/" component={Featured} />
-          <Route path="/about" component={About}/>
+          <Route path="/about" component={About} />
         </div>
       </BrowserRouter>
     )
