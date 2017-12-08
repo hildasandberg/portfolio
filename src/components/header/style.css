@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
-
 .header {
   background-color: pink;
-  height: 100%;
+  height: 10vh;
   padding: 0 10% 0 10%;
   display: flex;
   justify-content: space-between;

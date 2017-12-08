@@ -1,10 +1,10 @@
 import React from "react"
-import FeatureProject from "./featureProject.js"
+import FeatureProject from "../featured/featureProject.js"
 import "./style.css"
 
 const projectsJson = require("./../../projects.json")
 
-class Featured extends React.Component {
+class Projects extends React.Component {
 
   render() {
     return (
@@ -23,4 +23,4 @@ class Featured extends React.Component {
 
 }
 
-export default Featured
+export default Projects

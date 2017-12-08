@@ -8,7 +8,9 @@ class Header extends React.Component {
     return (
       <div className="header">
         <li className="headerOptions">
-          Hilda Sandberg
+          <Link to="/">
+            Hilda Sandberg
+          </Link>
         </li>
         <li className="headerOptions">
           <Link to="/projects">
@@ -16,7 +18,9 @@ class Header extends React.Component {
           </Link>
         </li>
         <li className="headerOptions">
-          About
+          <Link to="/about">
+            About
+          </Link>
         </li>
         <li className="headerOptions">
           Blabla

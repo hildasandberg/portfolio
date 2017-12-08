@@ -12,15 +12,20 @@ export default class FeatureProject extends React.Component {
           </div>
 
           <div className="projectInfo">
-            <h1 className="name">
+            <h2 className="name">
               {this.props.name}
-            </h1>
+            </h2>
 
             <div className="description">
-              <h1 className="categories">
+              <h3 className="categories">
                 {this.props.cat}
-              </h1>
+              </h3>
               {this.props.desc}
+
+              <a href={`components/projects/${this.props.id}`}>
+                Read More
+              </a>
+
             </div>
           </div>
         </div>

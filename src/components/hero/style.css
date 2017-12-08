@@ -2,21 +2,22 @@
   background: cyan;
   background-position: center;
   background-size: cover;
-  height: 100%;
+  height: 90vh;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.hero .left {
+.left {
   display: flex;
   flex-direction: column;
   width: 50%;
   height: 100%;
 }
 
-.hero .web, .hero .ide {
+.web, .ide {
   height: 50%;
   display: flex;
   justify-content: center;
@@ -31,7 +32,7 @@
   background: pink;
 }
 
-.hero .hilda  {
+.hilda  {
   background-image: url(./../../images/hilda.jpg);
   background-position: center;
   background-size: cover;
@@ -40,16 +41,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.hero h1{
-  text-shadow: rgba(10, 189, 240, 0.298039) 3px 3px 0px, rgba(254, 1, 1, 0.298039) -3px -3px 0px;
-  text-align: center;
-  font-size: 70px;
-}
-
-.hero h2{
-  text-shadow: rgba(10, 189, 240, 0.298039) 3px 3px 0px, rgba(254, 1, 1, 0.298039) -3px -3px 0px;
-  text-align: center;
-  font-size: 40px;
 }
