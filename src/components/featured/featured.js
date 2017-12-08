@@ -9,13 +9,14 @@ class Featured extends React.Component {
   render() {
     return (
       <div className="featured">
-        {projectsJson.projects.map((item) => {
+        {projectsJson.projects.filter(item => item.featured).map((item) => {
           return <FeatureProject
             pic={item.images[0]}
             name={item.name}
             cat={item.category}
             desc={item.description}
-            id={item.id}/>
+            id={item.id}
+            />
         })}
       </div>
     )

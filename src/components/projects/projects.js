@@ -11,6 +11,7 @@ class Projects extends React.Component {
       <div className="featured">
         {projectsJson.projects.map((item) => {
           return <FeatureProject
+            key={item.id}
             pic={item.images[0]}
             name={item.name}
             cat={item.category}

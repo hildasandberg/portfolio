@@ -1,6 +1,7 @@
 {
 	"projects": [{
 			"id": "hejhej",
+			"featured": true,
 			"name": "Christmas Calendar",
 			"category": "Web Development",
 			"images": ["https://www.apoteket.se/produktbilder/Validoo/097610s.jpg"],
