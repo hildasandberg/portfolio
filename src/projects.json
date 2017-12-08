@@ -1,0 +1,43 @@
+{
+	"projects": [{
+			"id": 1,
+			"name": "Christmas Calendar",
+			"category": "Web Development",
+			"images": ["https://www.apoteket.se/produktbilder/Validoo/097610s.jpg"],
+			"video": "../images/videos/christmascalendar.webm",
+			"description": "Beskrivning av projectet",
+			"technologies": ["react","javascript","css","html"],
+			"link": "https://hildasandberg.wixsite.com/portfolio2/copy-of-project-page-2"
+		},
+		{
+			"id": 2,
+			"name": "Project Name",
+			"category": "Web Development",
+			"images": ["https://www.apoteket.se/produktbilder/Validoo/097610s.jpg"],
+			"video": "../images/videos/christmascalendar.webm",
+			"description": "Beskrivning av projectet",
+			"technologies": ["react","javascript","css","html"],
+			"link": "https://hildasandberg.wixsite.com/portfolio2/copy-of-project-page-2"
+		},
+		{
+			"id": 3,
+			"name": "Project Name",
+			"category": "Web Development",
+			"images": ["https://www.apoteket.se/produktbilder/Validoo/097610s.jpg"],
+			"video": "../images/videos/christmascalendar.webm",
+			"description": "Beskrivning av projectet",
+			"technologies": ["react","javascript","css","html"],
+			"link": "https://hildasandberg.wixsite.com/portfolio2/copy-of-project-page-2"
+		},
+		{
+			"id": 4,
+			"name": "Project Name",
+			"category": "Web Development",
+			"images": ["https://www.apoteket.se/produktbilder/Validoo/097610s.jpg"],
+			"video": "../images/videos/christmascalendar.webm",
+			"description": "Beskrivning av projectet",
+			"technologies": ["react","javascript","css","html"],
+			"link": "https://hildasandberg.wixsite.com/portfolio2/copy-of-project-page-2"
+		}
+	]
+}

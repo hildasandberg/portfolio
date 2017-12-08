@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+
+.header {
+  background-color: pink;
+  height: 100%;
+  padding: 0 10% 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(10, 189, 240, 0.298039) 3px 3px 0px;
+}
+
+.headerOptions {
+  list-style: none;
+  font-family: 'Cedarville Cursive', cursive;
+}

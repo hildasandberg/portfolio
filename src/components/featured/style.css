@@ -1,0 +1,26 @@
+.oneProject {
+  width: 80vw;
+  height: 500px;
+  background-color: cyan;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.projectPic, .projectInfo {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
+
+.projectInfo {
+
+}
+
+.description {
+
+}
+
+.categories {
+
+}

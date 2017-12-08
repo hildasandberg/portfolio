@@ -1,0 +1,55 @@
+.hero {
+  background: cyan;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.hero .web, .hero .ide {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .ide {
+  background: none;
+}
+
+.hero .ide {
+  background: pink;
+}
+
+.hero .hilda  {
+  background-image: url(./../../images/hilda.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1{
+  text-shadow: rgba(10, 189, 240, 0.298039) 3px 3px 0px, rgba(254, 1, 1, 0.298039) -3px -3px 0px;
+  text-align: center;
+  font-size: 70px;
+}
+
+.hero h2{
+  text-shadow: rgba(10, 189, 240, 0.298039) 3px 3px 0px, rgba(254, 1, 1, 0.298039) -3px -3px 0px;
+  text-align: center;
+  font-size: 40px;
+}

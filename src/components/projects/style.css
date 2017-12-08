@@ -1,0 +1,14 @@
+.detailedProject {
+  background: yellow;
+  width: 100vw;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.detailedProject .projectPic, .detailedProject .projectInfo {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
