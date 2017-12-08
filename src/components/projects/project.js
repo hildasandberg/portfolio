@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./style.css"
 
 const projectsJson = require("./../../projects.json")
@@ -35,6 +36,9 @@ export default class Project extends React.Component {
             </h3>
             {this.state.foundProject.description}
           </div>
+          <Link to="/projects">
+            Back to Projects
+          </Link>
         </div>
       </div>
     )

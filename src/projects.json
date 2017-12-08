@@ -1,47 +1,47 @@
 {
 	"projects": [{
-			"id": "hejhej",
+			"id": "Christmas-calendar",
 			"featured": true,
 			"name": "Christmas Calendar",
 			"category": "Web Development",
-			"images": ["https://www.apoteket.se/produktbilder/Validoo/097610s.jpg"],
+			"images": ["https://i.ytimg.com/vi/W-PBFMECvTE/maxresdefault.jpg"],
 			"video": "../images/videos/christmascalendar.webm",
 			"description": "Beskrivning av projectet",
 			"technologies": ["react","javascript","css","html"],
 			"link": "https://hildasandberg.wixsite.com/portfolio2/copy-of-project-page-2"
 		},
 		{
-			"id": "hoho",
+			"id": "Radio-player",
 			"featured": true,
 			"name": "Radio Player",
 			"category": "Web Development",
-			"images": ["https://www.apoteket.se/produktbilder/Validoo/097610s.jpg"],
+			"images": ["https://i.imgur.com/xkKw5r8.jpg"],
 			"video": "../images/videos/christmascalendar.webm",
 			"description": "A radio player using Sveriges Radios API",
 			"technologies": ["react","javascript","css","html"],
-			"link": "https://hildasandberg.wixsite.com/portfolio2/copy-of-project-page-2"
+			"link": "https://i.imgur.com/xkKw5r8.jpg"
 		},
 		{
-			"id": 3,
-			"featured": true,
+			"id": "Pizza-Bot",
+			"featured": false,
 			"name": "Project Name",
 			"category": "Web Development",
-			"images": ["https://www.apoteket.se/produktbilder/Validoo/097610s.jpg"],
+			"images": ["https://amazinganimalphotos.com/wp-content/uploads/2013/04/cutest-cat-picture-ever.jpg"],
 			"video": "../images/videos/christmascalendar.webm",
 			"description": "Beskrivning av projectet",
 			"technologies": ["react","javascript","css","html"],
-			"link": "https://hildasandberg.wixsite.com/portfolio2/copy-of-project-page-2"
+			"link": "https://amazinganimalphotos.com/wp-content/uploads/2013/04/cutest-cat-picture-ever.jpg"
 		},
 		{
-			"id": 4,
-			"featured": true,
+			"id": "Project-name",
+			"featured": false,
 			"name": "Project Name",
 			"category": "Web Development",
-			"images": ["https://www.apoteket.se/produktbilder/Validoo/097610s.jpg"],
+			"images": ["http://www.cancats.net/wp-content/uploads/2014/10/cute-cat-pictures-fluffy-cat-licking-its-paws.jpg"],
 			"video": "../images/videos/christmascalendar.webm",
 			"description": "Beskrivning av projectet",
 			"technologies": ["react","javascript","css","html"],
-			"link": "https://hildasandberg.wixsite.com/portfolio2/copy-of-project-page-2"
+			"link": "https://cdn.pixabay.com/photo/2017/10/30/23/26/kitty-2903812_960_720.jpg"
 		}
 	]
 }
