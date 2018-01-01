@@ -22,6 +22,7 @@ class Projects extends React.Component {
               name={item.name}
               cat={item.category}
               desc={item.description}
+              link={item.link}
               id={item.id} />
           })}
         </div>

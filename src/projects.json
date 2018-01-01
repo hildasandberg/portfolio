@@ -4,33 +4,198 @@
 			"featured": true,
 			"name": "Christmas Calendar",
 			"category": "Web Development",
-			"images": ["https://i.ytimg.com/vi/W-PBFMECvTE/maxresdefault.jpg"],
+			"images": ["/images/pagespictures/web/julkalender1.png", "/images/pagespictures/julkalender1.png"],
 			"video": "../images/videos/christmascalendar.webm",
-			"description": "Beskrivning av projectet",
-			"technologies": ["react","javascript","css","html"],
-			"link": "https://hildasandberg.wixsite.com/portfolio2/copy-of-project-page-2"
-		},
-		{
-			"id": "blabla",
-			"featured": true,
-			"name": "Radio Player",
-			"category": "Web Development",
-			"images": ["https://i.imgur.com/xkKw5r8.jpg"],
-			"video": "../images/videos/christmascalendar.webm",
-			"description": "A radio player using Sveriges Radios API",
-			"technologies": ["react","javascript","css","html"],
-			"link": "https://i.imgur.com/xkKw5r8.jpg"
+			"description": "A christmas calender for Kivra",
+			"technologies": ["javascript","css","html"],
+			"link": "https://eager-noether-e09ff3.netlify.com/"
 		},
 		{
 			"id": "Pizza-Bot",
 			"featured": false,
-			"name": "Project Name",
+			"name": "Pizza ordering through a pizza bot",
 			"category": "Web Development",
-			"images": ["https://amazinganimalphotos.com/wp-content/uploads/2013/04/cutest-cat-picture-ever.jpg"],
-			"video": "../images/videos/christmascalendar.webm",
+			"images": ["/images/pagespictures/web/pizzabot.png","/images/pagespictures/pizzabot-2.png"],
+			"video": "",
+			"description": "A form that lets you select from 3 different pizzas, calculates the price and time for delivery and also lets you rate the pizzas after your order",
+			"technologies": ["javascript","css","html"],
+			"link": "https://pizzabot.netlify.com/"
+		},
+		{
+			"id": "Radio-player",
+			"featured": false,
+			"name": "Radio player",
+			"category": "Web Development",
+			"images": ["/images/pagespictures/web/radioplayer.png"],
+			"video": "",
+			"description": "A radio player using Sveriges Radios API",
+			"technologies": ["react","javascript","css","html"],
+			"link": "https://hildasandberg.github.io/assignment-radio-player/"
+		},
+		{
+			"id": "technigo-yearbook",
+			"featured": true,
+			"name": "Technigo Yearbook",
+			"category": "Web Development",
+			"images": ["/images/pagespictures/web/yearbook.png"],
+			"video": "",
+			"description": "A yearbook page presenting the students of 2017-2018",
+			"technologies": ["css","html"],
+			"link": "https://hildasandberg.github.io/assignment-flexbox/"
+		},
+		{
+			"id": "Sign-up-form",
+			"featured": true,
+			"name": "Sign up form for ASOS",
+			"category": "Web Development",
+			"images": ["/images/pagespictures/web/asos-form.png","/images/pagespictures/asos-form2.png"],
+			"video": "",
+			"description": "Sign up form for ASOS",
+			"technologies": ["css","html"],
+			"link": "https://hildasandberg.github.io/assignment-forms/"
+		},
+		{
+			"id": "Css-grid",
+			"featured": false,
+			"name": "A Css-grid project",
+			"category": "Web Development",
+			"images": ["/images/pagespictures/web/helvetica-cssgrid.png","/images/pagespictures/helvetica-tablet.png","/images/pagespictures/helvetica-mobile.png"],
+			"video": "",
+			"description": "Helvetica tribute",
+			"technologies": ["css","html"],
+			"link": "https://hildasandberg.github.io/assignment-css-grid/"
+		},
+		{
+			"id": "Pharmacy-page",
+			"featured": false,
+			"name": "Pharmacy page",
+			"category": "Web Development",
+			"images": ["/images/pagespictures/web/pharmacy.png","/images/pagespictures/pharmacy-tablet.png","/images/pagespictures/pharmacy-mobile.png"],
+			"video": "",
 			"description": "Beskrivning av projectet",
 			"technologies": ["react","javascript","css","html"],
-			"link": "https://amazinganimalphotos.com/wp-content/uploads/2013/04/cutest-cat-picture-ever.jpg"
+			"link": "https://hildasandberg.github.io/assignment-product-page/"
+		},
+		{
+			"id": "Newspaper",
+			"featured": false,
+			"name": "A news site",
+			"category": "Web Development",
+			"images": ["/images/pagespictures/web/newspaper.png"],
+			"video": "",
+			"description": "Beskrivning av projectet",
+			"technologies": ["css","html"],
+			"link": "https://hildasandberg.github.io/assignment-newspaper/"
+		},
+		{
+			"id": "Ai-kassen",
+			"featured": false,
+			"name": "AI kassen",
+			"category": "Web Development",
+			"images": ["/images/pagespictures/web/aikassen-short.png","/images/pagespictures/aikassen.png","/images/pagespictures/aikassenmobile.png"],
+			"video": "",
+			"description": "Beskrivning av projectet",
+			"technologies": ["css","html"],
+			"link": "https://aikassen.netlify.com/"
+		},
+		{
+			"id": "ToDo-app",
+			"featured": false,
+			"name": "ToDo-app",
+			"category": "Web Development",
+			"images": ["/images/pagespictures/web/todo.png"],
+			"video": "",
+			"description": "A ToDo application that store the data",
+			"technologies": ["react","javascript","css","html"],
+			"link": ""
+		},
+		{
+			"id": "Soft-ice-cream",
+			"featured": true,
+			"name": "Soft ice cream machine",
+			"category": "Industrial Design Engineering",
+			"images": ["https://static.wixstatic.com/media/8c8dc1_dc49ba28b8d34a4089be91aa7e4f2093~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,usm_0.66_1.00_0.01/8c8dc1_dc49ba28b8d34a4089be91aa7e4f2093~mv2.webp"],
+			"video": "",
+			"description": "Product design of a soft serve ice cream machine. Designed with ease of use in mind with minimal buttons and information for the customer to take in. Designed to bring you cold ice and warm feelings! CAD: Rhinoceros Rendering: Keyshot Broschyre: Photoshop",
+			"technologies": ["Product design", "CAD", "Grafic design"],
+			"link": ""
+		},
+		{
+			"id": "Foldable-stool",
+			"featured": true,
+			"name": "A foldable stool in plastic",
+			"category": "Industrial Design Engineering",
+			"images": ["https://static.wixstatic.com/media/8c8dc1_a7510a5f14ea4eafad0a1e68ed0cc844~mv2.png/v1/fill/w_600,h_400,al_c,usm_0.66_1.00_0.01/8c8dc1_a7510a5f14ea4eafad0a1e68ed0cc844~mv2.png"],
+			"video": "",
+			"description": "The stool Arente is inspired by classical cross leg stools and modern trendy plastic furniture. This stool is designed for plastic and wants to take advantage of the unique features of plastic. The stool consists of a thin leg structure and a transparent seat and can be folded to take upp less space. CAD: Solid edge Rendering: Keyshot",
+			"technologies": ["Product design", "CAD"],
+			"link": ""
+		},
+		{
+			"id": "BAL-casing",
+			"featured": true,
+			"name": "Casing for an Extracorporeal Bio Artificial Liver Support system",
+			"category": "Industrial Design Engineering",
+			"images": ["https://static.wixstatic.com/media/8c8dc1_f7f331c134c4415d81113e82822c8d16~mv2.png/v1/fill/w_600,h_291,al_c,usm_0.66_1.00_0.01/8c8dc1_f7f331c134c4415d81113e82822c8d16~mv2.png"],
+			"video": "",
+			"description": "People with liver diseases sometimes use liver support systems. In this project a casing for such a device was designed. It is an extracorporeal device with a cryogel matrix containing liver cells. The blood is perfused through the cryogel and then led back into the body and the blood system. Since the liver support system is connected to the patients’ blood, it is important that the materials being used are biocompatible and able to be sterilized multiple times. Other important requirements for the casing are ergonomically factors such as soft shape, weight and size. The casing consists of two halves that are assembled using a snap fit. Between the two parts there is a seal that prevents leakage. The bio artificial liver support device is attached to the body using a strap. The casing is designed with smooth and round shapes to feel comfortable against the body and because sharp edges and corners have been avoided, it is also easy keep clean. CAD: Solid edge Rendering: Keyshot",
+			"technologies": ["Product design", "CAD"],
+			"link": ""
+		},
+		{
+			"id": "Waste-recycling-system",
+			"featured": true,
+			"name": "Waste Recycling System",
+			"category": "Industrial Design Engineering",
+			"images": ["https://static.wixstatic.com/media/8c8dc1_1ec307fd1d1c4506b9d232640d15925d~mv2.jpg/v1/fill/w_464,h_506,al_c,q_80,usm_0.66_1.00_0.01/8c8dc1_1ec307fd1d1c4506b9d232640d15925d~mv2.webp"],
+			"video": "",
+			"description": "Development of a waste recycling system. The goal was to develop a product that will fit in most homes with the users in mind.The type of waste produced by a family varies and with this system the users can easily categorize and move their household waste, at the same time design their own sorting system. The benefit of this product ​ is its flexibility. The user can easily alter the adjustable frame as well as arrange the bins accordingly. The users can also utilize the bins to transport the waste to the recycling center. CAD: Solid edge Rendering: Keyshot Model: Foamboard",
+			"technologies": ["Product design"],
+			"link": ""
+		},
+		{
+			"id": "toy-development",
+			"featured": true,
+			"name": "Toy Development",
+			"category": "Industrial Design Engineering",
+			"images": ["https://static.wixstatic.com/media/8c8dc1_b63461940ec940f9b713e306ec7cd5c9~mv2.jpg/v1/fill/w_600,h_386,al_c,q_80,usm_0.66_1.00_0.01/8c8dc1_b63461940ec940f9b713e306ec7cd5c9~mv2.webp"],
+			"video": "",
+			"description": "Product development of a line of toys for children aged 6-9. Uglymals were developed with input from focus groups consisting of children. With the interchangeable design (ability to swap out any part) kids are encouraged to play without preconceived norms. They can freely create animals with any look and personality. Model: 3D-milling, spray paint, hand paint, clay, fabric, wood, glass Report: Illustrator, photoshop",
+			"technologies": ["Product Development"],
+			"link": ""
+		},
+		{
+			"id": "Greenhouse",
+			"featured": true,
+			"name": "A man powered greenhouse",
+			"category": "Industrial Design Engineering",
+			"images": ["https://static.wixstatic.com/media/8c8dc1_21df6df2c8da4127bf498a03b6837328~mv2.jpg/v1/fill/w_600,h_450,al_c,q_80,usm_0.66_1.00_0.01/8c8dc1_21df6df2c8da4127bf498a03b6837328~mv2.webp"],
+			"video": "",
+			"description": "Why not use the energy from people working out? The question led to the design of a man powered greenhouse. This mechanical design uses a persons energy to pump water into a greenhouse, and the energy can also be used to power artificial sunlight. The gym members will collaboratively grow crops in the green house that can be sold in the gym café. CAD: Solid edge Rendering: 3D studio max Model: wood, plastic",
+			"technologies": ["Product Development"],
+			"link": ""
+		},
+		{
+			"id": "Broadband-Telia",
+			"featured": true,
+			"name": "Better broadband service for Telia",
+			"category": "Industrial Design Engineering",
+			"images": ["https://static.wixstatic.com/media/8c8dc1_57337d16cb03459bbf8e603970aa87a8~mv2_d_3157_2232_s_2.png/v1/fill/w_600,h_424,al_c,usm_0.66_1.00_0.01/8c8dc1_57337d16cb03459bbf8e603970aa87a8~mv2_d_3157_2232_s_2.png"],
+			"video": "",
+			"description": "The purpose of the project was to examine Telia's fixed broadband service for private customers from a customer perspective. The objective of this work has been to deliver useful customer insights and improvement proposals. In the project, a service design methodology was used where the focus has been on interactions with customers. The initial phase was followed by three iterative loops with customer interactions, insight analysis, ideation and conceptualization. Customer insights and concepts have been tested, evaluated, and deepened during the project. In the last phase the result was processed and the insights were rated for easier implementation. A major problem area for many customers was the Wi-Fi and Wi-Fi range, because the technology is perceived as difficult and abstract. The conclusion is that Telia should help their clients to improve the Wi-Fi quality and the project work led to three ultimate concepts tested on customers. Also six recommendations were delivered to Telia. Methods: Qualitative Interviews, Trigger material, Co-creation, Customer Journey Maps",
+			"technologies": ["Service Design"],
+			"link": ""
+		},
+		{
+			"id": "Cat-house",
+			"featured": true,
+			"name": "Cat house",
+			"category": "Industrial Design Engineering",
+			"images": ["https://static.wixstatic.com/media/8c8dc1_5a4c7a5e4c7e46c5a51573f3558dc927~mv2.jpg/v1/fill/w_480,h_600,al_c,q_80,usm_0.66_1.00_0.01/8c8dc1_5a4c7a5e4c7e46c5a51573f3558dc927~mv2.webp"],
+			"video": "",
+			"description": "Many cat houses don't fit in to the interior design. I couldn't find one that I wanted to have in my home. So I designed this house.",
+			"technologies": ["Product Development"],
+			"link": ""
 		},
 		{
 			"id": "Project-name",
@@ -41,18 +206,7 @@
 			"video": "../images/videos/christmascalendar.webm",
 			"description": "Beskrivning av projectet",
 			"technologies": ["react","javascript","css","html"],
-			"link": "https://cdn.pixabay.com/photo/2017/10/30/23/26/kitty-2903812_960_720.jpg"
-		},
-		{
-			"id": "Radio-player",
-			"featured": false,
-			"name": "Radio player",
-			"category": "Web Development",
-			"images": ["./radioplayer.png"],
-			"video": "",
-			"description": "A radio player using Sveriges Radios API",
-			"technologies": ["react","javascript","css","html"],
-			"link": "https://hildasandberg.github.io/assignment-radio-player/index.html"
+			"link": "https://pizzabot.netlify.com/"
 		}
 	]
 }

@@ -9,7 +9,9 @@ export default class Project extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      foundProject: {}
+      foundProject: {
+        images: ""
+      }
     }
   }
 
@@ -24,8 +26,7 @@ export default class Project extends React.Component {
   render() {
     return (
       <div className="detailedProject">
-        <div className="projectPic" style={{backgroundImage:`url(${this.state.foundProject.images})` }}>
-        </div>
+        <div className="projectPic" style={{ backgroundImage: `url(${this.state.foundProject.images[0]})` }} />
         <div className="projectInfo">
           <h2 className="name">
             {this.state.foundProject.name}
@@ -36,6 +37,7 @@ export default class Project extends React.Component {
             </h3>
             {this.state.foundProject.description}
           </div>
+          <a href={this.state.foundProject.link}>Visit site </a>
           <Link to="/projects">
             Back to Projects
           </Link>

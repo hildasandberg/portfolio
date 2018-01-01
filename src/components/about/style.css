@@ -19,7 +19,7 @@
 }
 
 .about .hilda  {
-  background-image: url(./../../images/hilda.jpg);
+  background-image: url(/images/hilda.jpg);
   background-position: center;
   background-size: cover;
   height: 100%;
