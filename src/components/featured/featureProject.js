@@ -21,7 +21,7 @@ export default class FeatureProject extends React.Component {
             {this.props.desc}
 
             <a href={`/projects/${this.props.id}`}>
-              Read More
+              Read More HEJHEJ
             </a>
 
           </div>
