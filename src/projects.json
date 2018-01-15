@@ -4,9 +4,9 @@
 			"featured": true,
 			"name": "Christmas Calendar",
 			"category": "Web Development",
-			"images": ["/images/pagespictures/web/julkalender1.png", "/images/pagespictures/julkalender1.png"],
+			"images": ["/images/pagespictures/web/julkalender1.png", "/images/pagespictures/web/julkalender2.png"],
 			"video": "../images/videos/christmascalendar.webm",
-			"description": "A christmas calender for Kivra",
+			"description": "The assignment was to build an advent calendar which will slowly reveal itself over 24 days until Christmas Eve! 🎅  The page is designed with 24 windows - one for each day leading up to Christmas. If a day is in the future, its window should be closed. If it is in the past, its window should be open. Every window leads to a indivudaly design page with a recepie. A openable window is visualized by snow falling in that window. This page was a group project during the Technigo Bootcamp in collaboration with Kivra.",
 			"technologies": ["javascript","css","html"],
 			"link": "https://eager-noether-e09ff3.netlify.com/"
 		},
@@ -15,9 +15,9 @@
 			"featured": false,
 			"name": "Pizza ordering through a pizza bot",
 			"category": "Web Development",
-			"images": ["/images/pagespictures/web/pizzabot.png","/images/pagespictures/pizzabot-2.png"],
+			"images": ["/images/pagespictures/web/pizzabot.png","/images/pagespictures/web/pizzabot-2.png"],
 			"video": "",
-			"description": "A form that lets you select from 3 different pizzas, calculates the price and time for delivery and also lets you rate the pizzas after your order",
+			"description": "A form that lets you select from 3 different pizzas, calculates the price and time for delivery and also lets you rate the pizzas after your order.",
 			"technologies": ["javascript","css","html"],
 			"link": "https://pizzabot.netlify.com/"
 		},
@@ -28,7 +28,7 @@
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/radioplayer.png"],
 			"video": "",
-			"description": "A radio player using Sveriges Radios API",
+			"description": "A radio player using Sveriges Radios API to fetch information about the radio channels and fetch playable audio stream urls to create a working radio player! The station name, image, and colour keys are all fetched from the API.",
 			"technologies": ["react","javascript","css","html"],
 			"link": "https://hildasandberg.github.io/assignment-radio-player/"
 		},
@@ -39,7 +39,7 @@
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/yearbook.png"],
 			"video": "",
-			"description": "A yearbook page presenting the students of 2017-2018",
+			"description": "A yearbook page presenting the students of 2017-2018. The layout is made using flexbox.",
 			"technologies": ["css","html"],
 			"link": "https://hildasandberg.github.io/assignment-flexbox/"
 		},
@@ -48,31 +48,20 @@
 			"featured": true,
 			"name": "Sign up form for ASOS",
 			"category": "Web Development",
-			"images": ["/images/pagespictures/web/asos-form.png","/images/pagespictures/asos-form2.png"],
+			"images": ["/images/pagespictures/web/asos-form.png","/images/pagespictures/web/asos-form2.png"],
 			"video": "",
-			"description": "Sign up form for ASOS",
+			"description": "A sign up form inspired and designed to fit ASOS",
 			"technologies": ["css","html"],
 			"link": "https://hildasandberg.github.io/assignment-forms/"
-		},
-		{
-			"id": "Css-grid",
-			"featured": false,
-			"name": "A Css-grid project",
-			"category": "Web Development",
-			"images": ["/images/pagespictures/web/helvetica-cssgrid.png","/images/pagespictures/helvetica-tablet.png","/images/pagespictures/helvetica-mobile.png"],
-			"video": "",
-			"description": "Helvetica tribute",
-			"technologies": ["css","html"],
-			"link": "https://hildasandberg.github.io/assignment-css-grid/"
 		},
 		{
 			"id": "Pharmacy-page",
 			"featured": false,
 			"name": "Pharmacy page",
 			"category": "Web Development",
-			"images": ["/images/pagespictures/web/pharmacy.png","/images/pagespictures/pharmacy-tablet.png","/images/pagespictures/pharmacy-mobile.png"],
+			"images": ["/images/pagespictures/web/pharmacy.png","/images/pagespictures/web/pharmacy-tablet.png","/images/pagespictures/web/pharmacy-mobile.png"],
 			"video": "",
-			"description": "Beskrivning av projectet",
+			"description": "A pharmacy e-commerce store, with a product listing of pharmaceuticals. The producsts are stored in a JSON file with product information for the products your page will list.",
 			"technologies": ["react","javascript","css","html"],
 			"link": "https://hildasandberg.github.io/assignment-product-page/"
 		},
@@ -83,18 +72,29 @@
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/newspaper.png"],
 			"video": "",
-			"description": "Beskrivning av projectet",
+			"description": "A classic newspaper grid that lists articles that is responsive and works both for desktop, tablet and mobile. The webpage kit.se is the inspiration and this is my version of their grid, for desktop, tablet and phone.",
 			"technologies": ["css","html"],
 			"link": "https://hildasandberg.github.io/assignment-newspaper/"
+		},
+		{
+			"id": "Css-grid",
+			"featured": false,
+			"name": "A Css-grid project",
+			"category": "Web Development",
+			"images": ["/images/pagespictures/web/helvetica-cssgrid.png","/images/pagespictures/web/helvetica-tablet.png","/images/pagespictures/web/helvetica-mobile.png"],
+			"video": "",
+			"description": "This Helvetica tribute is an layout using CSS grids. The layout and content came from a design spec and I've also made a responsive design for tablet and mobile.",
+			"technologies": ["css","html"],
+			"link": "https://hildasandberg.github.io/assignment-css-grid/"
 		},
 		{
 			"id": "Ai-kassen",
 			"featured": false,
 			"name": "AI kassen",
 			"category": "Web Development",
-			"images": ["/images/pagespictures/web/aikassen-short.png","/images/pagespictures/aikassen.png","/images/pagespictures/aikassenmobile.png"],
+			"images": ["/images/pagespictures/web/aikassen-short.png","/images/pagespictures/web/aikassen.png","/images/pagespictures/web/aikassen-mobile.png"],
 			"video": "",
-			"description": "Beskrivning av projectet",
+			"description": "This page was the first group project we did in the Technigo Bootcamp (the first 2 weeks of coding!). The requirements were: Responsive header The menu should work on all screen sizes. It should have a logotype, navigational links and one dropdown. Hero background image A large cover image in the hero section. Three selling points Responsive grid with three selling points containing icons and copy for each of them. Feature section List your top features with an image, text and button for each of them. Footer A navigational footer with social media links.",
 			"technologies": ["css","html"],
 			"link": "https://aikassen.netlify.com/"
 		},
@@ -105,9 +105,20 @@
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/todo.png"],
 			"video": "",
-			"description": "A ToDo application that store the data",
+			"description": "A ToDo application that store the data in local storage. The app list all items, the user is able to create a new item, mark an item as complete, and remove the item. All working togheter with the local storage. ",
 			"technologies": ["react","javascript","css","html"],
-			"link": ""
+			"link": "https://goodgirl.netlify.com/"
+		},
+		{
+			"id": "Online-store",
+			"featured": false,
+			"name": "Online-store",
+			"category": "Web Development",
+			"images": ["/images/pagespictures/web/sofo.png"],
+			"video": "",
+			"description": "Your project for this sprint is to build a custom retail store for one of Tictail's customers in React using Tictail's API to fetch live data. ",
+			"technologies": ["react","javascript","css","html"],
+			"link": "https://sofostore.netlify.com/"
 		},
 		{
 			"id": "Soft-ice-cream",
@@ -154,17 +165,6 @@
 			"link": ""
 		},
 		{
-			"id": "toy-development",
-			"featured": true,
-			"name": "Toy Development",
-			"category": "Industrial Design Engineering",
-			"images": ["https://static.wixstatic.com/media/8c8dc1_b63461940ec940f9b713e306ec7cd5c9~mv2.jpg/v1/fill/w_600,h_386,al_c,q_80,usm_0.66_1.00_0.01/8c8dc1_b63461940ec940f9b713e306ec7cd5c9~mv2.webp"],
-			"video": "",
-			"description": "Product development of a line of toys for children aged 6-9. Uglymals were developed with input from focus groups consisting of children. With the interchangeable design (ability to swap out any part) kids are encouraged to play without preconceived norms. They can freely create animals with any look and personality. Model: 3D-milling, spray paint, hand paint, clay, fabric, wood, glass Report: Illustrator, photoshop",
-			"technologies": ["Product Development"],
-			"link": ""
-		},
-		{
 			"id": "Greenhouse",
 			"featured": true,
 			"name": "A man powered greenhouse",
@@ -172,6 +172,17 @@
 			"images": ["https://static.wixstatic.com/media/8c8dc1_21df6df2c8da4127bf498a03b6837328~mv2.jpg/v1/fill/w_600,h_450,al_c,q_80,usm_0.66_1.00_0.01/8c8dc1_21df6df2c8da4127bf498a03b6837328~mv2.webp"],
 			"video": "",
 			"description": "Why not use the energy from people working out? The question led to the design of a man powered greenhouse. This mechanical design uses a persons energy to pump water into a greenhouse, and the energy can also be used to power artificial sunlight. The gym members will collaboratively grow crops in the green house that can be sold in the gym café. CAD: Solid edge Rendering: 3D studio max Model: wood, plastic",
+			"technologies": ["Product Development"],
+			"link": ""
+		},
+		{
+			"id": "toy-development",
+			"featured": true,
+			"name": "Toy Development",
+			"category": "Industrial Design Engineering",
+			"images": ["https://static.wixstatic.com/media/8c8dc1_b63461940ec940f9b713e306ec7cd5c9~mv2.jpg/v1/fill/w_600,h_386,al_c,q_80,usm_0.66_1.00_0.01/8c8dc1_b63461940ec940f9b713e306ec7cd5c9~mv2.webp"],
+			"video": "",
+			"description": "Product development of a line of toys for children aged 6-9. Uglymals were developed with input from focus groups consisting of children. With the interchangeable design (ability to swap out any part) kids are encouraged to play without preconceived norms. They can freely create animals with any look and personality. Model: 3D-milling, spray paint, hand paint, clay, fabric, wood, glass Report: Illustrator, photoshop",
 			"technologies": ["Product Development"],
 			"link": ""
 		},
@@ -196,17 +207,6 @@
 			"description": "Many cat houses don't fit in to the interior design. I couldn't find one that I wanted to have in my home. So I designed this house.",
 			"technologies": ["Product Development"],
 			"link": ""
-		},
-		{
-			"id": "Project-name",
-			"featured": false,
-			"name": "Project Name",
-			"category": "Web Development",
-			"images": ["http://www.cancats.net/wp-content/uploads/2014/10/cute-cat-pictures-fluffy-cat-licking-its-paws.jpg"],
-			"video": "../images/videos/christmascalendar.webm",
-			"description": "Beskrivning av projectet",
-			"technologies": ["react","javascript","css","html"],
-			"link": "https://pizzabot.netlify.com/"
 		}
 	]
 }

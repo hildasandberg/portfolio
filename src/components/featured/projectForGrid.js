@@ -1,33 +1,28 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./style.css"
 
 export default class ProjectForGrid extends React.Component {
 
-  render() {
-    console.log(this.props)
-    return (
-      <div className="gridProject">
+handleClick = () => {
+  console.log("you clicked on a project")
+  this.props.handleProjectClick()
+}
 
-        <div className="gridProjectPic" style={{ backgroundImage: `url(${this.props.pic})` }}>
+render() {
+  console.log(this.props)
+  return (
+    <div className={`gridProject ${this.props.filterVariableClass}`}>
+      <div className="gridProjectPic" style={{ backgroundImage: `url(${this.props.pic})` }}>
+        <Link to={`/projects/${this.props.id}`} onClick={this.handleClick}>
           <div className="gridProjectInfo">
             <h2 className="name">
               {this.props.name}
             </h2>
-
-            {/* <div className="description">
-              <h3 className="categories">
-                {this.props.cat}
-              </h3> */}
-              {/* {this.props.desc} */}
-
-              <a href={`/projects/${this.props.id}`}>
-                Read More
-              </a>
-
-            {/* </div> */}
           </div>
-        </div>
+        </Link>
       </div>
-    )
-  }
+    </div>
+  )
+}
 }

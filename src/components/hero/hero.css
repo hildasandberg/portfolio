@@ -1,11 +1,12 @@
-.hero {
-  background: cyan;
+.hero2 {
+  background: pink;
+  background-image: url(/images/pagespictures/audrey-fretz-451115.jpg);
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -32,13 +33,14 @@
   background: pink;
 }
 
-.hilda  {
-  background-image: url(/images/hilda.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.hilda2 h2  {
+  display: inline;
+}
+
+@media (min-width: 426px) and (max-width: 1024px)  {
+
+}
+
+@media (max-width: 425px)  {
+
 }

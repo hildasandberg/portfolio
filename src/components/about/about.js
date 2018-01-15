@@ -1,14 +1,15 @@
 import React from "react"
-import "./style.css"
+import "./about.css"
 
 class About extends React.Component {
 
   render() {
     return (
-      <div className="about">
+      <div className="about-container">
         <div className="left">
+          <h1> Hilda Sandberg </h1>
+
           <div className="text">
-            <h2>HEJ!</h2>
             <p>
               I am an industrial design engineer with extensive knowledge in design methodology
                and product development.
@@ -22,20 +23,18 @@ class About extends React.Component {
             </p>
             <p>
               <h3>Skills</h3>
-                Product development, Project management, Industrial design, Service design,
-                User interactions, Prototyping, Construction, Visualization, Agile, Scrum,
-                Customer experience, Ideation, Project Planning
+                Web development, Product development, Project management, Industrial design, Service design, User interactions, Prototyping, Construction, Visualization, Agile, Scrum, Customer experience, Ideation, Project Planning, Ergonomics
               <p>
-                Microsoft Excel, Microsoft Office, SolidEdge, Rhinoceros, 3D Studio Max,
-                KeyShot, InDesign, Photoshop, Illustrator, MATLAB, Modela Player,
-                CES EduPack, VBA, html
+                HTML, CSS, JavaScript, React, Node.js, Microsoft Office, InDesign, Photoshop, Illustrator, Solid Edge, Rhinoceros,
+3D Studio Max, KeyShot, VBA, C++, Jira, Confluence, GitHub, Atom
               </p>
             </p>
           </div>
+
         </div>
-        <div className="hilda">
-          <h1> Hilda Sandberg </h1>
-        </div>
+
+        <div className="hilda" />
+
       </div>
     )
   }
