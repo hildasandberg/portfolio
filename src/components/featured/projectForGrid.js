@@ -13,8 +13,8 @@ render() {
   console.log(this.props)
   return (
     <div className={`gridProject ${this.props.filterVariableClass}`}>
-      <div className="gridProjectPic" style={{ backgroundImage: `url(${this.props.pic})` }}>
-        <Link to={`/projects/${this.props.id}`} onClick={this.handleClick}>
+      <div className="gridProjectPic" style={{ backgroundImage: `url(${this.props.pic})` }} onClick={this.handleClick}>
+        <Link to={`/projects/${this.props.id}`}>
           <div className="gridProjectInfo">
             <h2 className="name">
               {this.props.name}

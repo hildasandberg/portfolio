@@ -5,7 +5,7 @@ import "react-image-gallery/styles/css/image-gallery.css"
 class Gallery extends React.Component {
 
   render() {
-
+    
     const images = [
       {
         original: this.props.gallImg1,
