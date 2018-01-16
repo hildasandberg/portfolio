@@ -7,6 +7,11 @@ class Gallery extends React.Component {
 
   render() {
 
+    // const image = {
+    //     original: this.props.gallImg1,
+    //     thumbnail: this.props.gallImg1
+    //   }
+
     const images = [
       {
         original: this.props.gallImg1,

@@ -1,7 +1,6 @@
 {
 	"projects": [{
 			"id": "Christmas-calendar",
-			"featured": true,
 			"name": "Christmas Calendar",
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/julkalender1.png", "/images/pagespictures/web/julkalender2.png", "/images/pagespictures/web/julkalender3.png"],
@@ -12,7 +11,6 @@
 		},
 		{
 			"id": "Pizza-Bot",
-			"featured": false,
 			"name": "Pizza ordering through a pizza bot",
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/pizzabot.png","/images/pagespictures/web/pizzabot-2.png", "/images/pagespictures/web/pizzabot-3.png"],
@@ -23,7 +21,6 @@
 		},
 		{
 			"id": "Radio-player",
-			"featured": false,
 			"name": "Radio player",
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/radioplayer.png", "/images/pagespictures/web/radioplayer-wireframe.png", "/images/pagespictures/web/radioplayer-2.png"],
@@ -34,7 +31,6 @@
 		},
 		{
 			"id": "technigo-yearbook",
-			"featured": true,
 			"name": "Technigo Yearbook",
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/yearbook.png","/images/pagespictures/web/yearbook-mobile.png"],
@@ -45,7 +41,6 @@
 		},
 		{
 			"id": "Sign-up-form",
-			"featured": true,
 			"name": "Sign up form for ASOS",
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/asos-form.png","/images/pagespictures/web/asos-form2.png"],
@@ -56,7 +51,6 @@
 		},
 		{
 			"id": "Pharmacy-page",
-			"featured": false,
 			"name": "Pharmacy page",
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/pharmacy.png","/images/pagespictures/web/pharmacy-tablet.png","/images/pagespictures/web/pharmacy-mobile.png"],
@@ -67,7 +61,6 @@
 		},
 		{
 			"id": "Newspaper",
-			"featured": false,
 			"name": "A news site",
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/newspaper.png"],
@@ -78,7 +71,6 @@
 		},
 		{
 			"id": "Css-grid",
-			"featured": false,
 			"name": "A Css-grid project",
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/helvetica-cssgrid.png","/images/pagespictures/web/helvetica-tablet.png","/images/pagespictures/web/helvetica-mobile.png"],
@@ -89,7 +81,6 @@
 		},
 		{
 			"id": "Ai-kassen",
-			"featured": false,
 			"name": "AI kassen",
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/aikassen-short.png","/images/pagespictures/web/aikassen.png","/images/pagespictures/web/aikassen-mobile.png"],
@@ -100,7 +91,6 @@
 		},
 		{
 			"id": "ToDo-app",
-			"featured": false,
 			"name": "ToDo-app",
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/todo.png"],
@@ -111,7 +101,6 @@
 		},
 		{
 			"id": "Online-store",
-			"featured": false,
 			"name": "Online-store",
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/sofo-1.png","/images/pagespictures/web/sofo-3.png","/images/pagespictures/web/sofo.png"],
@@ -122,7 +111,6 @@
 		},
 		{
 			"id": "habit-tracker",
-			"featured": false,
 			"name": "Habit Tracker",
 			"category": "Web Development",
 			"images": ["/images/pagespictures/web/habit-start-4.png","/images/pagespictures/web/habit-form-text.png","/images/pagespictures/web/habit-calendar-3.png"],
@@ -133,7 +121,6 @@
 		},
 		{
 			"id": "Soft-ice-cream",
-			"featured": true,
 			"name": "Soft ice cream machine",
 			"category": "Industrial Design Engineering",
 			"images": ["https://static.wixstatic.com/media/8c8dc1_dc49ba28b8d34a4089be91aa7e4f2093~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,usm_0.66_1.00_0.01/8c8dc1_dc49ba28b8d34a4089be91aa7e4f2093~mv2.webp"],
@@ -144,10 +131,9 @@
 		},
 		{
 			"id": "Foldable-stool",
-			"featured": true,
 			"name": "A foldable stool in plastic",
 			"category": "Industrial Design Engineering",
-			"images": ["https://static.wixstatic.com/media/8c8dc1_a7510a5f14ea4eafad0a1e68ed0cc844~mv2.png/v1/fill/w_600,h_400,al_c,usm_0.66_1.00_0.01/8c8dc1_a7510a5f14ea4eafad0a1e68ed0cc844~mv2.png"],
+			"images": ["/images/pagespictures/ide/arente/multi.png","/images/pagespictures/ide/arente/carbonfiber.jpg","/images/pagespictures/ide/arente/imiljö.png"],
 			"video": "",
 			"description": "The stool Arente is inspired by classical cross leg stools and modern trendy plastic furniture. This stool is designed for plastic and wants to take advantage of the unique features of plastic. The stool consists of a thin leg structure and a transparent seat and can be folded to take upp less space. CAD: Solid edge Rendering: Keyshot",
 			"technologies": ["Product design", "CAD"],
@@ -155,10 +141,9 @@
 		},
 		{
 			"id": "BAL-casing",
-			"featured": true,
 			"name": "Casing for an Extracorporeal Bio Artificial Liver Support system",
 			"category": "Industrial Design Engineering",
-			"images": ["https://static.wixstatic.com/media/8c8dc1_f7f331c134c4415d81113e82822c8d16~mv2.png/v1/fill/w_600,h_291,al_c,usm_0.66_1.00_0.01/8c8dc1_f7f331c134c4415d81113e82822c8d16~mv2.png"],
+			"images": ["/images/pagespictures/ide/bal/casinghalfes.png","/images/pagespictures/ide/bal/casing.png","/images/pagespictures/ide/bal/bal.png","/images/pagespictures/ide/bal/body_edited.png"],
 			"video": "",
 			"description": "People with liver diseases sometimes use liver support systems. In this project a casing for such a device was designed. It is an extracorporeal device with a cryogel matrix containing liver cells. The blood is perfused through the cryogel and then led back into the body and the blood system. Since the liver support system is connected to the patients’ blood, it is important that the materials being used are biocompatible and able to be sterilized multiple times. Other important requirements for the casing are ergonomically factors such as soft shape, weight and size. The casing consists of two halves that are assembled using a snap fit. Between the two parts there is a seal that prevents leakage. The bio artificial liver support device is attached to the body using a strap. The casing is designed with smooth and round shapes to feel comfortable against the body and because sharp edges and corners have been avoided, it is also easy keep clean. CAD: Solid edge Rendering: Keyshot",
 			"technologies": ["Product design", "CAD"],
@@ -166,7 +151,6 @@
 		},
 		{
 			"id": "Waste-recycling-system",
-			"featured": true,
 			"name": "Waste Recycling System",
 			"category": "Industrial Design Engineering",
 			"images": ["https://static.wixstatic.com/media/8c8dc1_1ec307fd1d1c4506b9d232640d15925d~mv2.jpg/v1/fill/w_464,h_506,al_c,q_80,usm_0.66_1.00_0.01/8c8dc1_1ec307fd1d1c4506b9d232640d15925d~mv2.webp"],
@@ -177,10 +161,9 @@
 		},
 		{
 			"id": "Greenhouse",
-			"featured": true,
 			"name": "A man powered greenhouse",
 			"category": "Industrial Design Engineering",
-			"images": ["https://static.wixstatic.com/media/8c8dc1_21df6df2c8da4127bf498a03b6837328~mv2.jpg/v1/fill/w_600,h_450,al_c,q_80,usm_0.66_1.00_0.01/8c8dc1_21df6df2c8da4127bf498a03b6837328~mv2.webp"],
+			"images": ["/images/pagespictures/ide/greenhouse/ksjgfhduo.jpg","/images/pagespictures/ide/greenhouse/DSC01360.JPG.jpg","/images/pagespictures/ide/greenhouse/DSC00909.JPG.jpg"],
 			"video": "",
 			"description": "Why not use the energy from people working out? The question led to the design of a man powered greenhouse. This mechanical design uses a persons energy to pump water into a greenhouse, and the energy can also be used to power artificial sunlight. The gym members will collaboratively grow crops in the green house that can be sold in the gym café. CAD: Solid edge Rendering: 3D studio max Model: wood, plastic",
 			"technologies": ["Product Development"],
@@ -188,7 +171,6 @@
 		},
 		{
 			"id": "toy-development",
-			"featured": true,
 			"name": "Toy Development",
 			"category": "Industrial Design Engineering",
 			"images": ["https://static.wixstatic.com/media/8c8dc1_b63461940ec940f9b713e306ec7cd5c9~mv2.jpg/v1/fill/w_600,h_386,al_c,q_80,usm_0.66_1.00_0.01/8c8dc1_b63461940ec940f9b713e306ec7cd5c9~mv2.webp"],
@@ -199,7 +181,6 @@
 		},
 		{
 			"id": "Broadband-Telia",
-			"featured": true,
 			"name": "Better broadband service for Telia",
 			"category": "Industrial Design Engineering",
 			"images": ["https://static.wixstatic.com/media/8c8dc1_57337d16cb03459bbf8e603970aa87a8~mv2_d_3157_2232_s_2.png/v1/fill/w_600,h_424,al_c,usm_0.66_1.00_0.01/8c8dc1_57337d16cb03459bbf8e603970aa87a8~mv2_d_3157_2232_s_2.png"],
@@ -210,10 +191,9 @@
 		},
 		{
 			"id": "Cat-house",
-			"featured": true,
 			"name": "Cat house",
 			"category": "Industrial Design Engineering",
-			"images": ["https://static.wixstatic.com/media/8c8dc1_5a4c7a5e4c7e46c5a51573f3558dc927~mv2.jpg/v1/fill/w_480,h_600,al_c,q_80,usm_0.66_1.00_0.01/8c8dc1_5a4c7a5e4c7e46c5a51573f3558dc927~mv2.webp"],
+			"images": ["/images/pagespictures/ide/katthus/katthus.jpg","/images/pagespictures/ide/katthus/katthus1.jpg","/images/pagespictures/ide/katthus/katthus3.jpg"],
 			"video": "",
 			"description": "Many cat houses don't fit in to the interior design. I couldn't find one that I wanted to have in my home. So I designed this house.",
 			"technologies": ["Product Development"],
