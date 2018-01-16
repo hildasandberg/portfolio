@@ -29,6 +29,12 @@
 .web:nth-child(9) {
   grid-column: span 2;
 }
+.web:nth-child(11) {
+  grid-column: span 2;
+}
+.web:nth-child(12) {
+  grid-row: span 2;
+}
 
 .gridProjectInfo {
   display: none;

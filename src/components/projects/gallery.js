@@ -1,11 +1,12 @@
 import React from "react"
 import ImageGallery from "react-image-gallery"
 import "react-image-gallery/styles/css/image-gallery.css"
+import "./projects.css"
 
 class Gallery extends React.Component {
 
   render() {
-    
+
     const images = [
       {
         original: this.props.gallImg1,

@@ -47,7 +47,7 @@ class App extends React.Component {
             <Route exact path="/" component={Devider} />
           </Animated>
 
-          <div id="web-development">
+          <div id="web-project">
             <Route
               path="/projects/:id"
               render={routeProps =>
@@ -61,7 +61,7 @@ class App extends React.Component {
 
           <Animated animationIn="zoomIn" isVisible={`${!this.state.projectVisible}`}>
 
-            <div id="industrial-design">
+            <div id="web-development">
               <Route
                 exact
                 path="/"
@@ -80,16 +80,18 @@ class App extends React.Component {
 
             {/* <Route exact path="/" component={Devider} /> */}
 
-            <Route
-              exact
-              path="/"
-              render={routeProps =>
-                <ProjectsGrid
-                  {...routeProps}
-                  handleProjectClick={this.handleProjectClick}
-                  filterVariable="Industrial Design Engineering"
-                  filterVariableClass="i-d-e" />
-              } />
+            <div id="industrial-design">
+              <Route
+                exact
+                path="/"
+                render={routeProps =>
+                  <ProjectsGrid
+                    {...routeProps}
+                    handleProjectClick={this.handleProjectClick}
+                    filterVariable="Industrial Design Engineering"
+                    filterVariableClass="i-d-e" />
+                } />
+            </div>
 
             <Route exact path="/" component={Devider} />
 
