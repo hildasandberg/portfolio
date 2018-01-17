@@ -38,13 +38,7 @@ export default class Project extends React.Component {
         <div className="detailedProject">
 
           <div className="projectPic">
-            {/* <div className="projectPic" style={{ backgroundImage: `url(${this.state.foundProject.images[0]})` }} /> */}
-            <Gallery
-              gallImg1={this.state.foundProject.images[0]}
-              gallImg2={this.state.foundProject.images[1]}
-              gallImg3={this.state.foundProject.images[2]}
-              gallImgAll={this.state.foundProject.images}
-            />
+            <Gallery gallImgAll={this.state.foundProject.images} />
           </div>
           <div className="projectInfo">
 

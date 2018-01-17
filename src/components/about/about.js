@@ -24,10 +24,14 @@ class About extends React.Component {
               </p>
               <p>
                 <h3>Skills</h3>
-                  Web development, Product development, Project management, Industrial design, Service design, User interactions, Prototyping, Construction, Visualization, Agile, Scrum, Customer experience, Ideation, Project Planning, Ergonomics
+                  Web development, Product development, Project management,
+                  Industrial design, Service design, User interactions,
+                  Prototyping, Construction, Visualization, Agile, Scrum,
+                  Customer experience, Ideation, Project Planning, Ergonomics
                 <p>
-                  HTML, CSS, JavaScript, React, Node.js, Microsoft Office, InDesign, Photoshop, Illustrator, Solid Edge, Rhinoceros,
-  3D Studio Max, KeyShot, VBA, C++, Jira, Confluence, GitHub, Atom
+                  HTML, CSS, JavaScript, React, Node.js, Microsoft Office,
+                  InDesign, Photoshop, Illustrator, Solid Edge, Rhinoceros,
+                  3D Studio Max, KeyShot, VBA, C++, Jira, Confluence, GitHub, Atom
                 </p>
               </p>
             </div>

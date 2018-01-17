@@ -4,7 +4,7 @@ import "./experience.css"
 
 export default class Experience extends React.Component {
 
-  render () {
+  render() {
     return (
       <div className="experience-container">
 
