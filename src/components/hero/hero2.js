@@ -19,13 +19,13 @@ class Hero extends React.Component {
 
         <Scrollchor to="#web-development">
           {/* <Link to="/web-development"> */}
-          <h2>Web Developer</h2>
+          <h4>Web Developer</h4>
           {/* </Link> */}
         </Scrollchor>
 
         <Scrollchor to="#industrial-design">
           {/* <Link to="/industrial-design"> */}
-          <h2>Industrial Design Engineer</h2>
+          <h4>Industrial Design Engineer</h4>
           {/* </Link> */}
         </Scrollchor>
 

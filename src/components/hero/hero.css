@@ -1,6 +1,5 @@
 .hero2 {
-  background: pink;
-  background-image: url(/images/pagespictures/audrey-fretz-451115.jpg);
+  background: none;
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -33,8 +32,10 @@
   background: pink;
 }
 
-.hilda2 h2  {
+.hero2 h4  {
   display: inline;
+  font-size: 30px;
+  color: white;
 }
 
 @media (min-width: 426px) and (max-width: 1024px)  {

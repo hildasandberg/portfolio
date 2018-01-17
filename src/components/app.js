@@ -37,7 +37,7 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <div>
-          <Logo />
+          {/* <Logo /> */}
 
           <Animated animationIn="zoomIn" isVisible={`${!this.state.projectVisible}`}>
             <div id="top">

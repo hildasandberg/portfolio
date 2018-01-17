@@ -28,7 +28,10 @@ class Gallery extends React.Component {
     ]
 
     return (
-      <ImageGallery items={images} />
+      <ImageGallery
+        items={images}
+        showFullscreenButton={false}
+        showThumbnails={false} />
     )
   }
 
