@@ -10,6 +10,7 @@
     "react-animated-css": "^1.0.2",
     "react-dom": "^16.0.0",
     "react-fullscreen": "^0.1.0",
+    "react-markdown": "^3.1.4",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.16",
     "react-scrollchor": "^4.2.1"

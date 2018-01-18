@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import ReactMarkdown from "react-markdown"
 import projectsJson from "projects"
 import Gallery from "./gallery.js"
 import "./projects.css"
@@ -19,6 +20,7 @@ export default class Project extends React.Component {
   handleClick = () => {
     this.props.handleProjectClick()
   }
+
 
   render() {
     return (
@@ -42,9 +44,9 @@ export default class Project extends React.Component {
               })}
             </h4>
 
-            <div className="description">
-              {this.state.foundProject.description}
-            </div>
+            <p className="description">
+              <ReactMarkdown source={this.state.foundProject.description} />,
+            </p>
 
             <div className="projectLinks">
               <h4>

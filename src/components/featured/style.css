@@ -14,15 +14,12 @@
 .web:nth-child(1) {
   grid-column: span 2;
 }
-
 .web:nth-child(4) {
   grid-row: span 2;
 }
-
 .web:nth-child(6) {
   grid-row: span 2;
 }
-
 .web:nth-child(8) {
   grid-column: span 2;
 }
@@ -43,7 +40,6 @@
 .i-d-e:nth-child(2) {
   grid-column: span 2;
 }
-
 .i-d-e:nth-child(3) {
   grid-column: span 2;
 }
@@ -53,11 +49,9 @@
 .i-d-e:nth-child(7) {
   grid-column: span 2;
 }
-
 .gridProjectPic:hover {
   opacity: 0.8;
 }
-
 .gridProject:hover a{
   color: white;
 }
@@ -68,4 +62,40 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1024px)  {
+  .web:nth-child(10) {
+    grid-row: span 2;
+  }
+  .web:nth-child(11) {
+    order: 11;
+  }
+  .web:nth-child(12) {
+    order: 10;
+  }
+  .i-d-e:nth-child(1) {
+    order: 0;
+  }
+  .i-d-e:nth-child(2) {
+    order: 2;
+  }
+  .i-d-e:nth-child(3) {
+    order: 3;
+  }
+ .i-d-e:nth-child(4) {
+    order: 4;
+  }
+  .i-d-e:nth-child(5) {
+    order: 5;
+  }
+  .i-d-e:nth-child(6) {
+    order: 6;
+  }
+  .i-d-e:nth-child(7) {
+    order: 7;
+  }
+  .i-d-e:nth-child(8) {
+    order: 1;
+  }
 }

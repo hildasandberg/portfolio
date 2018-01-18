@@ -29,6 +29,9 @@ class Hero extends React.Component {
           {/* </Link> */}
         </Scrollchor>
 
+        <Scrollchor to="#intro">
+          <i className="fas fa-arrow-circle-down" />
+        </Scrollchor>
       </div>
     )
   }

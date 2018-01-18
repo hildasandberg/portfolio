@@ -38,6 +38,37 @@
   color: white;
 }
 
+.hero2 h4:hover  {
+  opacity: 0.7;
+}
+
+@keyframes bouncing {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+  	40% {
+      transform: translateY(-30px);
+    }
+  	60% {
+      transform: translateY(-15px);
+    }
+}
+
+.fas {
+  padding: 20px;
+  font-size: 60px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+  animation: bouncing 4s infinite ease-in;
+}
+
+.fas:hover {
+    opacity: 0.7;
+}
+
 @media (min-width: 426px) and (max-width: 1024px)  {
 
 }

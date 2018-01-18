@@ -41,7 +41,9 @@ class App extends React.Component {
             <div id="top">
               <Route exact path="/" component={Hero2} />
             </div>
-            <Route exact path="/" component={Intro} />
+            <div id="intro">
+              <Route exact path="/" component={Intro} />
+            </div>
             <Route exact path="/" component={Devider} />
           </Animated>
 
