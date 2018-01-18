@@ -31,6 +31,24 @@
   background-size: cover;
   width: 60%;
 }
+
+@media (min-width: 426px) and (max-width: 1024px)  {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .hilda  {
+    width: 100%;
+    height: 80vw;
+    margin-bottom: 30px;
+  }
+}
+
 @media (max-width: 425px)  {
   .about-container {
     flex-direction: column;
@@ -42,9 +60,6 @@
   }
 
   .hilda  {
-    background-image: url(/images/hilda.jpg);
-    background-position: center;
-    background-size: cover;
     width: 100%;
     height: 80vw;
     margin-bottom: 30px;

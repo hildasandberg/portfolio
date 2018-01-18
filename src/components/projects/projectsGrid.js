@@ -1,8 +1,7 @@
 import React from "react"
+import projectsJson from "projects.js"
 import ProjectForGrid from "../featured/projectForGrid.js"
 import "./projects.css"
-
-const projectsJson = require("./../../projects.json")
 
 class ProjectsGrid extends React.Component {
 

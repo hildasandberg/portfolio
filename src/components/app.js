@@ -24,12 +24,10 @@ class App extends React.Component {
 
   handleProjectClick = () => {
     console.log("you clicked on a project, this is the app component")
-    debugger
     this.setState({
       projectVisible: !this.state.projectVisible
     }, () => {
       console.log(this.state.projectVisible)
-      debugger
     })
   }
 

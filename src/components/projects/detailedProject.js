@@ -1,31 +1,19 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import projectsJson from "projects"
 import Gallery from "./gallery.js"
 import "./projects.css"
-
-const projectsJson = require("./../../projects.json")
 
 export default class Project extends React.Component {
 
   constructor(props) {
     super(props)
-    this.state = {
-      foundProject: {
-        images: [],
-        technologies: []
-      }
-    }
-  }
 
-  componentDidMount() {
     const foundProject = projectsJson.projects.find(p => (p.id === this.props.match.params.id))
-    this.setState({
+
+    this.state = {
       foundProject
-    }, () => {
-      console.log(this.state.foundProject.images[0])
-      console.log(this.state.foundProject.images[1])
-      console.log(this.state.foundProject.images[2])
-    })
+    }
   }
 
   handleClick = () => {

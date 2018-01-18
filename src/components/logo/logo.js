@@ -9,9 +9,9 @@ class Logo extends React.Component {
     return (
       <Link to="/">
         {/* <Scrollchor to=""> */}
-          <div className="logo">
-            {/* <h1>Hilda</h1> */}
-          </div>
+        <div className="logo">
+          {/* <h1>Hilda</h1> */}
+        </div>
         {/* </Scrollchor> */}
       </Link>
     )
