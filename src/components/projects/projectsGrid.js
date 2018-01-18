@@ -1,6 +1,5 @@
 import React from "react"
 import ProjectForGrid from "../featured/projectForGrid.js"
-import BigHeader from "../BigHeader/BigHeader.js"
 import "./projects.css"
 
 const projectsJson = require("./../../projects.json")
@@ -54,9 +53,6 @@ class ProjectsGrid extends React.Component {
             </div>
 
           </div>
-          {/* <div className="titleHeader">
-            <BigHeader className="title" text="Projects" />
-          </div> */}
           <div className="projectsGrid">
             {projectsJson.projects.filter(item => item.category === this.props.filterVariable).map((item) => {
               return <ProjectForGrid
