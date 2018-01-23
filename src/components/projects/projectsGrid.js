@@ -37,7 +37,7 @@ class ProjectsGrid extends React.Component {
                      I am an industrial design engineer with extensive knowledge
                      in design methodology and product development. I work in an
                      engaged and iterative manner because I am a strong believer
-                     of continuous improvement. I am interested in user
+                     of continuous improvement. \n I am interested in user
                      interaction and I always think about usability and keeping
                      customer focus when developing services and products.
                      I also have a keen interest in leadership and agile product

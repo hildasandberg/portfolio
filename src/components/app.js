@@ -1,6 +1,7 @@
 import React from "react"
 import { BrowserRouter, Route } from "react-router-dom"
 import { Animated } from "react-animated-css"
+import Scrollchor from "react-scrollchor"
 // import Scrollchor from "react-scrollchor"
 // import Logo from "./logo/logo.js"
 import Hero2 from "./hero/hero2.js"
@@ -98,8 +99,13 @@ class App extends React.Component {
             <div id="about">
               <Route exact path="/" component={About} />
             </div>
-            <Route exact path="/" component={Devider} />
-
+            
+            <Route exact path="/" render={()=>
+              <Scrollchor to="#top">
+                <div className="up-arrow">
+                  <i className="fas fa-arrow-circle-up" />
+                </div>
+              </Scrollchor>} />
             <Route exact path="/" component={Footer} />
 
           </Animated>

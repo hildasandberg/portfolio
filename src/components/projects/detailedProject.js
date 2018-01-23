@@ -45,7 +45,7 @@ export default class Project extends React.Component {
             </h4>
 
             <p className="description">
-              <ReactMarkdown source={this.state.foundProject.description} />,
+              <ReactMarkdown source={this.state.foundProject.description} />
             </p>
 
             <div className="projectLinks">

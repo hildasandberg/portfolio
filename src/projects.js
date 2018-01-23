@@ -5,8 +5,7 @@ export default {
     category: "Web Development",
     images: ["/images/pagespictures/web/julkalender1.png", "/images/pagespictures/web/julkalender2.png", "/images/pagespictures/web/julkalender3.png"],
     video: "../images/videos/christmascalendar.webm",
-    description: `The assignment was to build an *advent calendar* which will slowly reveal itself over 24 days until Christmas Eve! 🎅 The page is designed with 24 windows - one for each day leading up to Christmas. If a day is in the future, its window should be closed. If it is in the past, its window should be open. Every window leads to a indivudaly design page with a recepie. A openable window is visualized by snow falling in that window. This page was a group project during the Technigo Bootcamp in collaboration with Kivra.
-    `,
+    description: `The assignment was to build an *advent calendar* which will slowly reveal itself over 24 days until Christmas Eve! 🎅  \n \n The page is designed with 24 windows - one for each day leading up to Christmas. If a day is in the future, its window should be closed. If it is in the past, its window should be open. Every window leads to a indivudaly design page with a recepie. A openable window is visualized by snow falling in that window. This page was a group project during the Technigo Bootcamp in collaboration with Kivra.`,
     technologies: ["javascript", "css", "html"],
     link: "https://eager-noether-e09ff3.netlify.com/"
   },
@@ -106,7 +105,7 @@ export default {
     category: "Web Development",
     images: ["/images/pagespictures/web/sofo-1.png", "/images/pagespictures/web/sofo-3.png", "/images/pagespictures/web/sofo.png"],
     video: "",
-    description: "Your project for this sprint is to build a custom retail store for one of Tictail's customers in React using Tictail's API to fetch live data. ",
+    description: "This goal of the project was to build a custom retail store for one of Tictail's customers in React using Tictail's API to fetch live data. This page was a group project during the Technigo Bootcamp",
     technologies: ["react", "javascript", "css", "html"],
     link: "https://sofostore.netlify.com/"
   },
@@ -116,7 +115,7 @@ export default {
     category: "Web Development",
     images: ["/images/pagespictures/web/habit-start-4.png", "/images/pagespictures/web/habit-form-text.png", "/images/pagespictures/web/habit-calendar-3.png"],
     video: "",
-    description: "",
+    description: "A habit tracker that lets you track 6 new habits that you want to start with. This app was a group project during the Technigo Bootcamp",
     technologies: ["react", "javascript", "css", "html"],
     link: "https://reverent-williams-2e8d68.netlify.com/"
   },
