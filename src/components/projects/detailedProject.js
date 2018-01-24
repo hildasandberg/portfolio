@@ -35,14 +35,14 @@ export default class Project extends React.Component {
             <h2 className="name">
               {this.state.foundProject.name}
             </h2>
-            <h4 className="categories">
-              {this.state.foundProject.category}
+            <h4 className="category">{this.state.foundProject.category}</h4>
+            <div className="technologies">
               {this.state.foundProject.technologies.map((tech) => {
                 return (
-                  <h4 className="technoglogies">{tech}</h4>
+                  <h4> {tech}</h4>
                 )
               })}
-            </h4>
+            </div>
 
             <p className="description">
               <ReactMarkdown source={this.state.foundProject.description} />

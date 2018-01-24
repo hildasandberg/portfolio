@@ -32,6 +32,9 @@
 .web:nth-child(12) {
   grid-row: span 2;
 }
+.web:nth-child(13) {
+  grid-column: span 2;
+}
 
 .gridProjectInfo {
   display: none;
@@ -74,6 +77,11 @@
   .web:nth-child(12) {
     order: 10;
   }
+  .web:nth-child(13) {
+    order: 12;
+  }
+
+
   .i-d-e:nth-child(1) {
     order: 0;
   }
