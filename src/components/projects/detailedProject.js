@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import ReactMarkdown from "react-markdown"
-import projectsJson from "projects"
-import Gallery from "./gallery.js"
+import projects from "../../projects.js"
+import Gallery from "../gallery/gallery.js"
 import "./projects.css"
 
 export default class Project extends React.Component {
@@ -10,7 +10,7 @@ export default class Project extends React.Component {
   constructor(props) {
     super(props)
 
-    const foundProject = projectsJson.projects.find(p => (p.id === this.props.match.params.id))
+    const foundProject = projects.find(p => (p.id === this.props.match.params.id))
 
     this.state = {
       foundProject
@@ -64,7 +64,3 @@ export default class Project extends React.Component {
   }
 }
 
-Project.propTypes = {
-  // width: React.PropTypes.number,
-  // height: React.PropTypes.number
-}
